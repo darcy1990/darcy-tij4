@@ -1,8 +1,7 @@
-package generics;
-
-import net.mindview.util.Generator;
-
-
+//: generics/Fibonacci.java
+package generics; /* Added by Eclipse.py */
+// Generate a Fibonacci sequence.
+import net.mindview.util.*;
 
 public class Fibonacci implements Generator<Integer> {
   private int count = 0;

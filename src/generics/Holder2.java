@@ -1,6 +1,5 @@
-package generics;
-
 //: generics/Holder2.java
+package generics; /* Added by Eclipse.py */
 
 public class Holder2 {
   private Object a;

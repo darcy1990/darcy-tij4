@@ -1,6 +1,5 @@
-package typeinfo;
-
 //: typeinfo/SweetShop.java
+package typeinfo; /* Added by Eclipse.py */
 // Examination of the way the class loader works.
 import static net.mindview.util.Print.*;
 
@@ -22,7 +21,7 @@ public class SweetShop {
     new Candy();
     print("After creating Candy");
     try {
-      Class.forName("typeinfo.Gum");
+      Class.forName("Gum");
     } catch(ClassNotFoundException e) {
       print("Couldn't find Gum");
     }

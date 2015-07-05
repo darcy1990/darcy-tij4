@@ -1,6 +1,5 @@
-package generics;
-
 //: generics/CountedObject.java
+package generics; /* Added by Eclipse.py */
 
 public class CountedObject {
   private static long counter = 0;
